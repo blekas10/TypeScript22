@@ -1,0 +1,39 @@
+.card2 {
+  margin: 200px 100px;
+  width: 90%;
+  height: 60vh;
+
+  border: solid 2px black;
+}
+.leftSide {
+  width: 50%;
+  height: 86%;
+  margin: 50px;
+  padding: 25px;
+  background-color: rgba(240, 248, 255, 0.467);
+}
+
+.leftSide h1 {
+  margin-bottom: 35px;
+}
+
+.trakai {
+  background-image: url(/TYPE14/img/Traku-salos-pilis-1697x1080.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.vilnius {
+  background-image: url(/TYPE14/img/Gedimino_pilis_by_Augustas_Didzgalvis.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.kaunas {
+  background-image: url(/TYPE14/img/38934_1-8ae948cfcc9e99001be32fce452b11c1.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: bottom;
+}
