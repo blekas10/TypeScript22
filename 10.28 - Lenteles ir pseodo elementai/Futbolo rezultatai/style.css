@@ -6,7 +6,6 @@
 }
 
 .container td {
-  font-weight: normal;
   font-size: 1em;
   box-shadow: 0 2px 2px -2px #0e1119;
 }
@@ -16,11 +15,22 @@
   overflow: hidden;
   width: 80%;
   margin: 0 auto;
-  display: table;
   padding: 0 0 8em 0;
+  margin-top: 200px;
 }
 
 .container td,
 .container th {
   padding: 8px 0 8px 12px;
+}
+
+.form {
+  padding: 5px;
+}
+
+.win {
+  background-color: green;
+}
+.loss {
+  background-color: red;
 }
