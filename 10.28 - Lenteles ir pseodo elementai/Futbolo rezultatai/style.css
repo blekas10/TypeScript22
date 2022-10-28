@@ -34,3 +34,7 @@
 .loss {
   background-color: red;
 }
+
+tr:nth-child(even) {
+  background-color: rgba(128, 128, 128, 0.419);
+}
