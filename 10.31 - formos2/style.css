@@ -130,6 +130,10 @@ main {
   margin: 200px auto;
   border: solid black 1px;
 }
+input,
+label {
+  display: block;
+}
 .leftSide {
   width: 30%;
   background-color: blueviolet;
@@ -139,4 +143,61 @@ main {
   width: 70%;
   padding: 20px;
   background-color: pink;
+}
+
+.flex {
+  display: flex;
+  gap: 40px;
+}
+.Select {
+  display: flex;
+}
+.Select > label {
+  font-size: 15px;
+  padding: 5px 0;
+  text-align: center;
+  line-height: 30px;
+  width: 100px;
+}
+.Select > input[type="radio"] {
+  display: none;
+}
+
+.Select > input[type="radio"]:checked + label {
+  background-color: aqua;
+}
+
+input {
+  width: 196px;
+  padding: 7px 0;
+  font-size: 15px;
+}
+
+.weightSelect > .Select {
+  width: 545px;
+  margin: auto;
+  justify-content: space-around;
+}
+
+.marginBtm {
+  margin-bottom: 30px;
+}
+.rightSide > h1 {
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.weightSelect > h1 {
+  margin-bottom: 30px;
+}
+
+.weightSelect > .Select {
+  background-color: blueviolet;
+  padding: 2px 0;
+}
+
+.bbb {
+  background-color: crimson;
+  padding: 3px;
 }

@@ -14,15 +14,90 @@
       </div>
       <div class="rightSide">
         <h1>Lorem ipsum dolor sit amet.</h1>
-        <form action="/action_page.php">
+        <!-- <form action="/action_page.php">
           <label for="fname">First name:</label><br />
           <input type="text" id="fname" name="fname" value="John" /><br />
           <label for="lname">Last name:</label><br />
           <input type="text" id="lname" name="lname" value="Doe" /><br /><br />
           <input type="submit" value="Submit" />
           <input type="reset" />
+        </form> -->
+
+        <form>
+          <div class="flex marginBtm">
+            <div class="petName">
+              <label for="fname">First name:</label>
+              <input type="text" id="fname" name="fname" />
+            </div>
+            <div class="uploadImg flex">
+              <input
+                type="file"
+                id="foto"
+                name="foto"
+                style="width: 90px"
+                onchange="this.style.width = '100%';"
+              />
+              <label for="foto">
+                <span>Upload a photo</span>
+              </label>
+            </div>
+          </div>
+          <div class="flex marginBtm">
+            <div class="breed">
+              <label for="Breed">Pets Breed</label>
+              <input type="text" id="breed" name="breed" />
+            </div>
+            <div class="birthday">
+              <label for="Bd">Birthday</label>
+              <input type="date" id="date" name="date" />
+            </div>
+          </div>
+          <div class="flex marginBtm">
+            <div class="Select bbb">
+              <input
+                type="radio"
+                name="gender"
+                id="male"
+                value="male"
+                checked
+              />
+              <label for="male">Male</label>
+              <input type="radio" name="gender" id="female" value="female" />
+              <label for="female">Female</label>
+            </div>
+            <div class="Select bbb">
+              <input
+                type="radio"
+                name="hair"
+                id="spayed"
+                value="spayed"
+                checked
+              />
+              <label for="spayed">spayed</label>
+              <input type="radio" name="hair" id="neutred" value="neutred" />
+              <label for="neutred">Neutred</label>
+            </div>
+          </div>
+          <div class="weightSelect">
+            <h1>Lorem, ipsum dolor.</h1>
+            <div class="Select">
+              <input
+                type="radio"
+                name="weight"
+                id="weight20"
+                value="20"
+                checked
+              />
+              <label for="weight20">20</label>
+              <input type="radio" name="weight" id="weight30" value="female" />
+              <label for="weight30">30</label>
+              <input type="radio" name="weight" id="weight40" value="40" />
+              <label for="weight40">40</label>
+              <input type="radio" name="weight" id="weight50" value="50" />
+              <label for="weight50">50</label>
+            </div>
+          </div>
         </form>
-        >
       </div>
     </main>
   </body>
