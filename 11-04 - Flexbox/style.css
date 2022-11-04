@@ -1,0 +1,33 @@
+body {
+  background-color: grey;
+}
+.box {
+  display: flex;
+  width: 820px;
+  margin: 250px auto;
+  border: solid rgb(255, 255, 255) 10px;
+  padding: 20px;
+  background-color: rgb(25, 25, 118);
+  color: white;
+}
+.header {
+  padding: 20px 10px 20px 30px;
+  flex: 2;
+  color: aqua;
+}
+.speaker {
+  flex: 1;
+}
+
+.speaker-img {
+  background-image: url(./img/311877037_687732249240999_3779490180879308484_n.png);
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 150px;
+}
+h3 {
+  margin: 10px 0 5px 0;
+}
+.about-speaker > p {
+  margin: 0;
+}
