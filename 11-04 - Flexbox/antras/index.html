@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-center">
+        <div class="nav-header">
+          <h4 class="logo">Best <span>ToDo</span> App</h4>
+        </div>
+        <ul class="social-icons">
+          <li>
+            <a href="https://www.facebook.com">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <form class="form task-form">
+        <h4>Your tasks</h4>
+        <div class="form-control">
+          <input
+            type="text"
+            name="name"
+            class="form-input task-input"
+            placeholder="e.g. wash dishes"
+          />
+          <button type="submit" class="btn submit-btn">Add</button>
+        </div>
+        <small class="form-alert">there was an error</small>
+      </form>
+
+      <section class="tasks-container"></section>
+    </main>
+  </body>
+</html>
