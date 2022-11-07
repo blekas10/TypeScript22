@@ -4,36 +4,6 @@
   box-sizing: border-box;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&family=Montserrat&display=swap");
-html {
-  font-size: 100%;
-}
-
-:root {
-  /* colors */
-
-  /* rest of the colors */
-  --black: #222;
-  --white: #fff;
-  --red-light: #f8d7da;
-  --red-dark: #842029;
-  --green-light: #d1e7dd;
-  --green-dark: #0f5132;
-
-  /* fonts  */
-  --headingFont: "Roboto", sans-serif;
-  --bodyFont: "Nunito", sans-serif;
-  --smallText: 0.7em;
-
-  /* rest of the vars */
-  --backgroundColor: var(--grey-50);
-  --textColor: var(--grey-900);
-  --borderRadius: 0.25rem;
-  --letterSpacing: 1px;
-  --max-width: 1120px;
-  --fixed-width: 600px;
-}
-
 body {
   background: var(--backgroundColor);
   font-family: var(--bodyFont);
@@ -189,7 +159,6 @@ nav {
   font-weight: 700;
 }
 .logo span {
-  color: var(--primary-500);
 }
 .social-icons {
   display: none;
@@ -218,10 +187,9 @@ nav {
 .btn {
   cursor: pointer;
   color: var(--white);
-  background: var(--primary-500);
+
   border: transparent;
-  border-radius: var(--borderRadius);
-  letter-spacing: var(--letterSpacing);
+
   padding: 0.375rem 0.75rem;
   box-shadow: var(--shadow-1);
   text-transform: capitalize;
