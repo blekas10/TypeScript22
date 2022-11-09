@@ -66,7 +66,49 @@ body {
   z-index: 5;
   transition: top 0.4s ease-in-out;
 }
+.navbar__nav > ul {
+  list-style-type: none;
+}
+.navbar__nav li {
+  overflow: hidden;
+}
+.navbar__nav a {
+  position: relative;
+  left: -30px;
+  text-decoration: none;
+  color: #ddd;
+  display: inline-block;
+  padding: 0.5em;
+  transition: left 0.3s ease-in-out;
+}
+.navbar__nav a:hover {
+  left: 0;
+  color: #fff;
+}
+.navbar__nav a::before {
+  width: 30px;
+  content: "🌮";
+}
 
 .navbar__nav.show {
   top: 0;
+}
+
+@media screen and (min-width: 700px) {
+  .bi.bi-list {
+    display: none;
+  }
+  .navbar__nav {
+    top: 0;
+    right: 1rem;
+    border: 2px solid cyan;
+    padding: 10px 0;
+  }
+  .navbar__nav ul {
+    display: inline-flex;
+    padding: 0;
+  }
+  .navbar > .container {
+    z-index: 0;
+  }
 }
