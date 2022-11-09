@@ -1,0 +1,72 @@
+:root {
+  --navbar-height: 60px;
+  --navbar-padding: 10px;
+  --navbar-content-height: calc(
+    var(--navbar-height) - var(--navbar-padding) * 2
+  ); /* 40px */
+}
+
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.navbar {
+  position: relative; /* atspirties taškas išlendančiam meniu */
+  height: var(--navbar-height);
+}
+
+/* bendros paskirties */
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 1rem;
+}
+
+.navbar > .container {
+  position: relative;
+  background-color: #252525;
+  padding: var(--navbar-padding) 1rem;
+  z-index: 10;
+}
+
+.navbar__layout {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-container {
+  display: inline-flex;
+}
+
+.logo-container > img {
+  height: var(--navbar-content-height);
+}
+
+.bi.bi-list {
+  display: inline-grid;
+  place-items: center;
+  font-size: calc(var(--navbar-content-height) - 10px);
+  color: #fff;
+  width: var(--navbar-content-height);
+  border-radius: 4px;
+}
+
+/* Išlendantis meniu */
+.navbar__nav {
+  position: absolute;
+  top: -200px;
+  left: 0;
+  width: 100%;
+  padding-top: var(--navbar-height);
+  background-color: #252525bb;
+  z-index: 5;
+  transition: top 0.4s ease-in-out;
+}
+
+.navbar__nav.show {
+  top: 0;
+}
