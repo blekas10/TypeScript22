@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.navbar {
+  height: 60px;
+  background-color: aquamarine;
+  padding: 10px 0;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+  border: 5px black solid;
+  padding: 0 1rem;
+}
+.navbar .container {
+  height: 100%;
+}
+
+.logo-container {
+  height: 100%;
+}
+
+.logo-container > img {
+  height: 100%;
+}
