@@ -2,7 +2,7 @@
   --color-white: #fff;
   --color-white-hover: #ddd;
   --color-black: #000;
-  --color-black-tranparent: #000000de;
+  --color-black-tranparent: #00000093;
   --color-shadow: #0003;
   --color-black-hover: #222;
   --color-primary: #009e5a;
@@ -26,8 +26,8 @@
 
   --border-radius: 4px;
 
-  --font-decoration: 'Bitter', serif;
-  --font-ui: 'Red Hat Mono', monospace;
+  --font-decoration: "Bitter", serif;
+  --font-ui: "Red Hat Mono", monospace;
   --font-general: Roboto;
 
   --h1: 3rem;
@@ -38,4 +38,6 @@
   --h6: 1rem;
 
   --navbar-height: 56px;
+
+  --full-width: 100%;
 }
