@@ -1,0 +1,29 @@
+section.about {
+  background: linear-gradient(
+    180deg,
+    var(--color-black) 40%,
+    var(--color-primary-dark),
+    rgba(0, 0, 0, 0.062)
+  );
+  padding-top: 5em;
+  padding-bottom: 7em;
+}
+
+.about-info h1,
+.about-info p {
+  color: var(--color-white);
+  font-family: myFont;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 400px) {
+  section.about {
+    background: linear-gradient(
+      180deg,
+      var(--color-black) 40%,
+      var(--color-primary-dark),
+      rgba(0, 0, 0, 0.062)
+    );
+    padding-top: 7em;
+  }
+}

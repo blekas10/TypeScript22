@@ -22,4 +22,6 @@
 @import "./components/navbar.css";
 
 /* Sections */
-@import "./sections/sections-main.css";
+@import "./sections/banner.css";
+@import "./sections/about.css";
+@import "./sections/intro.css";

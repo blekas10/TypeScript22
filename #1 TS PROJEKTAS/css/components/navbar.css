@@ -70,7 +70,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background: linear-gradient(270deg, black, transparent);
+    background: linear-gradient(0deg, black, transparent);
     padding-right: var(--spacing-5);
   }
   .navbar__nav > ul {

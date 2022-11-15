@@ -109,3 +109,14 @@ h6 {
 .full-w {
   width: var(--full-width);
 }
+.simple-harry-font {
+  font-family: myFont;
+}
+.harry-potter-font {
+  /* Stryling the text and giving it gradiant */
+  color: #ffffff;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2);
+}
